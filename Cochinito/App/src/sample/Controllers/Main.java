@@ -40,7 +40,6 @@ public class Main extends Application {
             invoiceStage.show();
             ((Stage)(((Button) event.getSource()).getScene().getWindow())).hide();
         }catch (IOException e ){
-            e.printStackTrace();
         }
     }
 }
