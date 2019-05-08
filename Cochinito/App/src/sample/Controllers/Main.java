@@ -7,6 +7,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 import java.io.IOException;
 
@@ -15,6 +16,7 @@ public class Main extends Application {
     @Override
     public void start(Stage _primaryStage) throws Exception{
         primaryStage = _primaryStage;
+        primaryStage.initStyle(StageStyle.UNDECORATED);
         Parent root = FXMLLoader.load(getClass().getResource("/sample/FXML/sample.fxml"));
         Scene scene = new Scene(root, 527, 283);
 
@@ -30,6 +32,7 @@ public class Main extends Application {
     public void abrirEscena(ActionEvent event, String escena, Object controller, String titulo){
         try {
             Stage invoiceStage=new Stage();
+            invoiceStage.initStyle(StageStyle.UNDECORATED);
             invoiceStage.setTitle(titulo);
             Parent root= null;
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/sample/FXML/"+escena));
