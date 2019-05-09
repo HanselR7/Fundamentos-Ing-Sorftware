@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Agregando Algoritmo de entrada y salida parte 1.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/ControllerMonedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/ControllerMonedas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/FXML/Monedas.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/FXML/Monedas.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/FXML/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/FXML/sample.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Agregue las imagenes y el cambio de billetes y monedas." />
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -349,7 +343,7 @@
       <workItem from="1557034605794" duration="165000" />
       <workItem from="1557158668099" duration="940000" />
       <workItem from="1557165055979" duration="915000" />
-      <workItem from="1557281008947" duration="1730000" />
+      <workItem from="1557281008947" duration="2467000" />
     </task>
     <task id="LOCAL-00001" summary="Agregando Algoritmo de entrada y salida parte 1.">
       <created>1554617089281</created>
@@ -365,11 +359,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554617822862</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Agregue las imagenes y el cambio de billetes y monedas.">
+      <created>1557284118355</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557284118355</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38888000" />
+    <option name="totallyTimeSpent" value="39625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -385,7 +386,7 @@
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.4041868" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.4041868" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -418,7 +419,8 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="Agregando Algoritmo de entrada y salida parte 1." />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregando Algoritmo de entrada y salida parte 1." />
+    <MESSAGE value="Agregue las imagenes y el cambio de billetes y monedas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregue las imagenes y el cambio de billetes y monedas." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
