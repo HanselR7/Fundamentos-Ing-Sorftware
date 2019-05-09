@@ -2,12 +2,13 @@
 
 <?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="497.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="400.0" prefWidth="497.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fitHeight="400.0" fitWidth="600.0" layoutX="18.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -49,34 +50,41 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></JFXButton>
-      <JFXButton fx:id="btnMonUno" layoutX="187.0" layoutY="74.0" text="Button" />
-      <ImageView fx:id="imv1" fitHeight="57.0" fitWidth="68.0" layoutX="178.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imv1" fitHeight="57.0" fitWidth="68.0" layoutX="200.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Imagenes/Dinero/1.png" />
          </image>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></ImageView>
-      <ImageView fx:id="imv2" fitHeight="57.0" fitWidth="68.0" layoutX="282.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imv2" fitHeight="57.0" fitWidth="68.0" layoutX="270.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Imagenes/Dinero/2.png" />
          </image>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></ImageView>
-      <ImageView fx:id="imv3" fitHeight="70.0" fitWidth="93.0" layoutX="171.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imv3" fitHeight="70.0" fitWidth="93.0" layoutX="193.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Imagenes/Dinero/5.png" />
          </image>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></ImageView>
-      <ImageView fx:id="imv4" fitHeight="70.0" fitWidth="93.0" layoutX="275.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imv4" fitHeight="79.0" fitWidth="80.0" layoutX="275.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Imagenes/Dinero/10.png" />
          </image>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></ImageView>
+      <JFXButton fx:id="Moneda1" layoutX="203.0" layoutY="57.0" mnemonicParsing="false" opacity="0.0" prefHeight="57.0" prefWidth="54.0" />
+      <JFXButton fx:id="Moneda5" layoutX="195.0" layoutY="119.0" mnemonicParsing="false" opacity="0.0" prefHeight="70.0" prefWidth="70.0" />
+      <JFXButton fx:id="Moneda2" layoutX="275.0" layoutY="60.0" mnemonicParsing="false" opacity="0.0" prefHeight="50.0" prefWidth="54.0" />
+      <JFXButton fx:id="Moneda10" layoutX="275.0" layoutY="122.0" mnemonicParsing="false" opacity="0.0" prefHeight="73.0" prefWidth="79.0" />
+      <JFXButton fx:id="Billete20" layoutX="202.0" layoutY="57.0" mnemonicParsing="false" opacity="0.0" prefHeight="57.0" prefWidth="54.0" visible="false" />
+      <JFXButton fx:id="Billete50" layoutX="277.0" layoutY="65.0" mnemonicParsing="false" opacity="0.0" prefHeight="43.0" prefWidth="54.0" visible="false" />
+      <JFXButton fx:id="Billete100" layoutX="193.0" layoutY="120.0" mnemonicParsing="false" opacity="0.0" prefHeight="70.0" prefWidth="70.0" visible="false" />
+      <JFXButton fx:id="Billete200" layoutX="276.0" layoutY="122.0" mnemonicParsing="false" opacity="0.0" prefHeight="73.0" prefWidth="79.0" visible="false" />
    </children>
 </AnchorPane>
