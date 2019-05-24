@@ -52,56 +52,88 @@ public class ControllerMonedas implements Initializable {
         });
 
         Moneda1.setOnAction(event -> {
+<<<<<<< HEAD
             File f = new File("C:\\Users\\hanse\\Documents\\Hansel\\Escuela\\ITC\\Semestre 5\\Fundamentos de ingenieria de software\\Repositorios\\Fundamentos-Ing-Sorftware\\Cochinito\\App\\src\\sample\\Sonido\\1peso.mp3");
+=======
+            File f = new File("C:\\Users\\Adrian\\Desktop\\Fundamentos IS\\Fundamentos-Ing-Sorftware\\Cochinito\\App\\src\\sample\\Sonido\\1peso.mp3");
+>>>>>>> c2926b4fddf995c4de0cac8a2de160e0330f5f82
             URI u = f.toURI();
             AudioClip sonido = new AudioClip(""+u);
             sonido.play();
         });
 
         Moneda2.setOnAction(event -> {
+<<<<<<< HEAD
             File f = new File("C:\\Users\\hanse\\Documents\\Hansel\\Escuela\\ITC\\Semestre 5\\Fundamentos de ingenieria de software\\Repositorios\\Fundamentos-Ing-Sorftware\\Cochinito\\App\\src\\sample\\Sonido\\2pesos.mp3");
+=======
+            File f = new File("C:\\Users\\Adrian\\Desktop\\Fundamentos IS\\Fundamentos-Ing-Sorftware\\Cochinito\\App\\src\\sample\\Sonido\\2pesos.mp3");
+>>>>>>> c2926b4fddf995c4de0cac8a2de160e0330f5f82
             URI u = f.toURI();
             AudioClip sonido = new AudioClip(""+u);
             sonido.play();
         });
 
         Moneda5.setOnAction(event -> {
+<<<<<<< HEAD
             File f = new File("C:\\Users\\hanse\\Documents\\Hansel\\Escuela\\ITC\\Semestre 5\\Fundamentos de ingenieria de software\\Repositorios\\Fundamentos-Ing-Sorftware\\Cochinito\\App\\src\\sample\\Sonido\\5pesos.mp3");
+=======
+            File f = new File("C:\\Users\\Adrian\\Desktop\\Fundamentos IS\\Fundamentos-Ing-Sorftware\\Cochinito\\App\\src\\sample\\Sonido\\5pesos.mp3");
+>>>>>>> c2926b4fddf995c4de0cac8a2de160e0330f5f82
             URI u = f.toURI();
             AudioClip sonido = new AudioClip(""+u);
             sonido.play();
         });
 
         Moneda10.setOnAction(event -> {
+<<<<<<< HEAD
             File f = new File("C:\\Users\\hanse\\Documents\\Hansel\\Escuela\\ITC\\Semestre 5\\Fundamentos de ingenieria de software\\Repositorios\\Fundamentos-Ing-Sorftware\\Cochinito\\App\\src\\sample\\Sonido\\10pesos.mp3");
+=======
+            File f = new File("C:\\Users\\Adrian\\Desktop\\Fundamentos IS\\Fundamentos-Ing-Sorftware\\Cochinito\\App\\src\\sample\\Sonido\\10pesos.mp3");
+>>>>>>> c2926b4fddf995c4de0cac8a2de160e0330f5f82
             URI u = f.toURI();
             AudioClip sonido = new AudioClip(""+u);
             sonido.play();
         });
 
         Billete20.setOnAction(event -> {
+<<<<<<< HEAD
             File f = new File("C:\\Users\\hanse\\Documents\\Hansel\\Escuela\\ITC\\Semestre 5\\Fundamentos de ingenieria de software\\Repositorios\\Fundamentos-Ing-Sorftware\\Cochinito\\App\\src\\sample\\Sonido\\20pesos.mp3");
+=======
+            File f = new File("C:\\Users\\Adrian\\Desktop\\Fundamentos IS\\Fundamentos-Ing-Sorftware\\Cochinito\\App\\src\\sample\\Sonido\\20pesos.mp3");
+>>>>>>> c2926b4fddf995c4de0cac8a2de160e0330f5f82
             URI u = f.toURI();
             AudioClip sonido = new AudioClip(""+u);
             sonido.play();
         });
 
         Billete50.setOnAction(event -> {
+<<<<<<< HEAD
             File f = new File("C:\\Users\\hanse\\Documents\\Hansel\\Escuela\\ITC\\Semestre 5\\Fundamentos de ingenieria de software\\Repositorios\\Fundamentos-Ing-Sorftware\\Cochinito\\App\\src\\sample\\Sonido\\50pesos.mp3");
+=======
+            File f = new File("C:\\Users\\Adrian\\Desktop\\Fundamentos IS\\Fundamentos-Ing-Sorftware\\Cochinito\\App\\src\\sample\\Sonido\\50pesos.mp3");
+>>>>>>> c2926b4fddf995c4de0cac8a2de160e0330f5f82
             URI u = f.toURI();
             AudioClip sonido = new AudioClip(""+u);
             sonido.play();
         });
 
         Billete100.setOnAction(event -> {
+<<<<<<< HEAD
             File f = new File("C:\\Users\\hanse\\Documents\\Hansel\\Escuela\\ITC\\Semestre 5\\Fundamentos de ingenieria de software\\Repositorios\\Fundamentos-Ing-Sorftware\\Cochinito\\App\\src\\sample\\Sonido\\100pesos.mp3");
+=======
+            File f = new File("C:\\Users\\Adrian\\Desktop\\Fundamentos IS\\Fundamentos-Ing-Sorftware\\Cochinito\\App\\src\\sample\\Sonido\\100pesos.mp3");
+>>>>>>> c2926b4fddf995c4de0cac8a2de160e0330f5f82
             URI u = f.toURI();
             AudioClip sonido = new AudioClip(""+u);
             sonido.play();
         });
 
         Billete200.setOnAction(event -> {
+<<<<<<< HEAD
             File f = new File("C:\\Users\\hanse\\Documents\\Hansel\\Escuela\\ITC\\Semestre 5\\Fundamentos de ingenieria de software\\Repositorios\\Fundamentos-Ing-Sorftware\\Cochinito\\App\\src\\sample\\Sonido\\200pesos.mp3");
+=======
+            File f = new File("C:\\Users\\Adrian\\Desktop\\Fundamentos IS\\Fundamentos-Ing-Sorftware\\Cochinito\\App\\src\\sample\\Sonido\\200pesos.mp3");
+>>>>>>> c2926b4fddf995c4de0cac8a2de160e0330f5f82
             URI u = f.toURI();
             AudioClip sonido = new AudioClip(""+u);
             sonido.play();
