@@ -9,7 +9,7 @@ import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
     @FXML JFXButton btnConoDinero;
-    @FXML JFXButton btnSalir;
+    @FXML JFXButton btnSalir, btnTiendita;
 
     Main m=new Main();
     @Override
@@ -20,5 +20,10 @@ public class Controller implements Initializable {
         });
 
         btnSalir.setOnAction(event -> {System.exit(0);});
+
+        btnTiendita.setOnAction(event -> {
+            ControllerTiendita controllerTiendita=new ControllerTiendita();
+            m.abrirEscena(event,"tiendita.fxml", controllerTiendita, "Tiendita");
+        });
     }
 }
