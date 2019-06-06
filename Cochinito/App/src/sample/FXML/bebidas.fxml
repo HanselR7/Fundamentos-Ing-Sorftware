@@ -26,9 +26,30 @@
             <Image url="@../Imagenes/cerrar.png" />
          </image>
       </ImageView>
-      <JFXButton fx:id="btnHersheys" layoutX="360.0" layoutY="128.0" prefHeight="81.0" prefWidth="52.0" />
-      <JFXButton fx:id="btnJumex" layoutX="434.0" layoutY="128.0" prefHeight="81.0" prefWidth="52.0" />
-      <JFXButton fx:id="btnYakult" layoutX="361.0" layoutY="230.0" prefHeight="66.0" prefWidth="42.0" />
-      <JFXButton fx:id="btnDanonino" layoutX="427.0" layoutY="230.0" prefHeight="66.0" prefWidth="60.0" />
+      <JFXButton fx:id="btnHersheys" layoutX="360.0" layoutY="128.0" prefHeight="81.0" prefWidth="52.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnJumex" layoutX="434.0" layoutY="128.0" prefHeight="81.0" prefWidth="52.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnYakult" layoutX="361.0" layoutY="230.0" prefHeight="66.0" prefWidth="42.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnDanonino" layoutX="427.0" layoutY="230.0" prefHeight="66.0" prefWidth="60.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnComprar" layoutX="58.0" layoutY="296.0" prefHeight="73.0" prefWidth="77.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
     </children>
 </AnchorPane>

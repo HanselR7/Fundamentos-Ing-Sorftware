@@ -12,7 +12,7 @@ import java.util.ResourceBundle;
 
 public class ControllerDulces implements Initializable {
     @FXML ImageView lblCerrar, lblRegresar;
-    @FXML JFXButton btnPaleta, btnPika, btnMiguelito, btnSabritas, btnOreo, btnPanditas, btnHuevos;
+    @FXML JFXButton btnPaleta, btnPika, btnMiguelito, btnSabritas, btnOreo, btnPanditas, btnHuevos, btnComprar;
 
     Main m=new Main();
     LinkedList<Producto> productos=new LinkedList<>();
