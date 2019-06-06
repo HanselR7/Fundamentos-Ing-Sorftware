@@ -26,12 +26,45 @@
             <Image url="@../Imagenes/cerrar.png" />
          </image>
       </ImageView>
-      <JFXButton fx:id="btnPaleta" layoutX="251.0" layoutY="148.0" prefHeight="48.0" prefWidth="69.0" />
-      <JFXButton fx:id="btnPika" layoutX="323.0" layoutY="157.0" prefHeight="36.0" prefWidth="57.0" />
-      <JFXButton fx:id="btnMiguelito" layoutX="395.0" layoutY="154.0" prefHeight="36.0" prefWidth="44.0" />
-      <JFXButton fx:id="btnSabritas" layoutX="255.0" layoutY="231.0" prefHeight="48.0" prefWidth="36.0" />
-      <JFXButton fx:id="btnOreo" layoutX="301.0" layoutY="205.0" prefHeight="30.0" prefWidth="57.0" />
-      <JFXButton fx:id="btnPanditas" layoutX="358.0" layoutY="235.0" prefHeight="48.0" prefWidth="36.0" />
-      <JFXButton fx:id="btnHuevos" layoutX="404.0" layoutY="200.0" prefHeight="42.0" prefWidth="36.0" />
+      <JFXButton fx:id="btnPaleta" layoutX="251.0" layoutY="148.0" prefHeight="48.0" prefWidth="69.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnPika" layoutX="323.0" layoutY="157.0" prefHeight="36.0" prefWidth="57.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnMiguelito" layoutX="395.0" layoutY="154.0" prefHeight="36.0" prefWidth="44.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnSabritas" layoutX="255.0" layoutY="231.0" prefHeight="48.0" prefWidth="36.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnOreo" layoutX="301.0" layoutY="205.0" prefHeight="30.0" prefWidth="57.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnPanditas" layoutX="358.0" layoutY="235.0" prefHeight="48.0" prefWidth="36.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnHuevos" layoutX="404.0" layoutY="200.0" prefHeight="42.0" prefWidth="36.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnComprar" layoutX="46.0" layoutY="283.0" prefHeight="65.0" prefWidth="75.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
     </children>
 </AnchorPane>

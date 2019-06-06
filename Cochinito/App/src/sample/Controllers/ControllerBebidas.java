@@ -3,6 +3,7 @@ package sample.Controllers;
 import com.jfoenix.controls.JFXButton;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
 import javafx.scene.image.ImageView;
 import sample.Modelos.Producto;
 
@@ -29,7 +30,17 @@ public class ControllerBebidas implements Initializable {
             m.abrirEscena1(event,"tiendita.fxml",controllerTiendita,"Ahorro Virtual");
         });
 
+        btnComprar.setOnAction(event -> {
+            String data="";
+            Alert alert=new Alert(Alert.AlertType.INFORMATION);
+            for (int i = 0; i < productos.size(); i++)
+                data+="Producto: "+productos.get(i).getNombre()+"\n"+"Cantidad: "+productos.get(i).getCantidad()+"\nTotal: "+productos.get(i).getTotal()+"\n";
+            alert.setContentText(data);
+            alert.showAndWait();
+        });
+
         btnHersheys.setOnAction(event -> {
+            existe=false;
             int size=productos.size();
             for (int i = 0; i < size; i++) {
                 if (productos.get(i).getNombre().equals("Hersheys")){
@@ -40,7 +51,7 @@ public class ControllerBebidas implements Initializable {
             if (!existe)
                 productos.add(new Producto("Hersheys",8,1, 8));
             else {
-                cantidad++;
+                cantidad=productos.get(pos).getCantidad()+1;;
                 int total=productos.get(pos).getPrecio()*cantidad;
                 productos.get(pos).setCantidad(cantidad);
                 productos.get(pos).setTotal(total);
@@ -48,6 +59,7 @@ public class ControllerBebidas implements Initializable {
         });
 
         btnYakult.setOnAction(event -> {
+            existe=false;
             int size=productos.size();
             for (int i = 0; i < size; i++) {
                 if (productos.get(i).getNombre().equals("Yakult")){
@@ -58,7 +70,7 @@ public class ControllerBebidas implements Initializable {
             if (!existe)
                 productos.add(new Producto("Yakult",6,1, 6));
             else {
-                cantidad++;
+                cantidad=productos.get(pos).getCantidad()+1;;
                 int total=productos.get(pos).getPrecio()*cantidad;
                 productos.get(pos).setCantidad(cantidad);
                 productos.get(pos).setTotal(total);
@@ -66,6 +78,7 @@ public class ControllerBebidas implements Initializable {
         });
 
         btnDanonino.setOnAction(event -> {
+            existe=false;
             int size=productos.size();
             for (int i = 0; i < size; i++) {
                 if (productos.get(i).getNombre().equals("Danonino")){
@@ -76,7 +89,7 @@ public class ControllerBebidas implements Initializable {
             if (!existe)
                 productos.add(new Producto("Danonio",10,1, 10));
             else {
-                cantidad++;
+                cantidad=productos.get(pos).getCantidad()+1;;
                 int total=productos.get(pos).getPrecio()*cantidad;
                 productos.get(pos).setCantidad(cantidad);
                 productos.get(pos).setTotal(total);
@@ -84,6 +97,7 @@ public class ControllerBebidas implements Initializable {
         });
 
         btnJumex.setOnAction(event -> {
+            existe=false;
             int size=productos.size();
             for (int i = 0; i < size; i++) {
                 if (productos.get(i).getNombre().equals("Jugo Jumex")){
@@ -94,7 +108,7 @@ public class ControllerBebidas implements Initializable {
             if (!existe)
                 productos.add(new Producto("Jugo Jumex",5,1, 5));
             else {
-                cantidad++;
+                cantidad=productos.get(pos).getCantidad()+1;;
                 int total=productos.get(pos).getPrecio()*cantidad;
                 productos.get(pos).setCantidad(cantidad);
                 productos.get(pos).setTotal(total);

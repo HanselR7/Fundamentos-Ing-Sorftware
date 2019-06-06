@@ -51,5 +51,6 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
+      <JFXButton fx:id="btnComprar" layoutX="43.0" layoutY="280.0" prefHeight="73.0" prefWidth="77.0" />
     </children>
 </AnchorPane>

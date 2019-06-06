@@ -1,40 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Contruir el algoritmo para entrada y salida de la tienda.">
-      <change afterPath="$PROJECT_DIR$/src/sample/Modelos/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/ControllerAlimentos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/ControllerAlimentos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/ControllerBebidas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/ControllerBebidas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/ControllerDulces.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/ControllerDulces.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/ControllerJuguetes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/ControllerJuguetes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/ControllerServicios.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/ControllerServicios.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/ControllerTiendita.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/ControllerTiendita.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/ControllerUtiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/ControllerUtiles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Controllers/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/Monedas.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/Monedas.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/alimentos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/alimentos.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/bebidas.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/bebidas.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/dulces.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/dulces.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/juguetes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/juguetes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/servicios.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/servicios.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/tiendita.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/tiendita.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/utiles.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/FXML/utiles.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Imagenes/regresar.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/sample/Imagenes/regresar.png" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Comprar productos parte 1">
       <change beforePath="$PROJECT_DIR$/src/sample/Controllers/ControllerAlimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/ControllerAlimentos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controllers/ControllerBebidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/ControllerBebidas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controllers/ControllerDulces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/ControllerDulces.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controllers/ControllerJuguetes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/ControllerJuguetes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controllers/ControllerServicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/ControllerServicios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/ControllerUtiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/ControllerUtiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/FXML/alimentos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/FXML/alimentos.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/FXML/bebidas.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/FXML/bebidas.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/FXML/dulces.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/FXML/dulces.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/FXML/juguetes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/FXML/juguetes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/FXML/servicios.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/FXML/servicios.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/FXML/utiles.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/FXML/utiles.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerAlimentos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="73">
+              <caret line="119" column="25" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerJuguetes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="73">
+              <caret line="118" column="25" selection-start-line="118" selection-start-column="25" selection-end-line="118" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,8 +143,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerServicios.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="94" column="69" selection-start-line="94" selection-start-column="69" selection-end-line="94" selection-end-column="69" />
+            <state relative-caret-position="134">
+              <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,8 +155,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerDulces.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="156" column="11" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="156" selection-end-column="11" />
+            <state relative-caret-position="73">
+              <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -195,8 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerBebidas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="73">
+              <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -219,8 +191,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerUtiles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="134">
+              <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -237,6 +209,18 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cantidad++</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>cantidad=productos.get(pos).getCantidad()+1;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\hanse\Documents\Hansel\Escuela\ITC\Semestre 5\Fundamentos de ingenieria de software\Repositorios\Fundamentos-Ing-Sorftware\Cochinito\App</dir>
+    </dirStrings>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -269,11 +253,11 @@
         <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerTiendita.java" />
         <option value="$PROJECT_DIR$/src/sample/Modelos/Productos.java" />
         <option value="$PROJECT_DIR$/src/sample/Modelos/Producto.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerUtiles.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerAlimentos.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerJuguetes.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerBebidas.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerDulces.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerUtiles.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerJuguetes.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerServicios.java" />
       </list>
     </option>
@@ -504,7 +488,7 @@
       <workItem from="1558891332237" duration="7556000" />
       <workItem from="1558929972313" duration="153000" />
       <workItem from="1558998673629" duration="548000" />
-      <workItem from="1559843744280" duration="6810000" />
+      <workItem from="1559843744280" duration="9580000" />
     </task>
     <task id="LOCAL-00001" summary="Agregando Algoritmo de entrada y salida parte 1.">
       <created>1554617089281</created>
@@ -548,11 +532,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558905003404</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Comprar productos parte 1">
+      <created>1559850597022</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559850597023</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Comprar productos parte 1">
+      <created>1559858023164</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559858023164</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64678000" />
+    <option name="totallyTimeSpent" value="67448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -607,7 +605,26 @@
     <MESSAGE value="Agregue las pantallas de la tiendita virtual." />
     <MESSAGE value="Arreglado, falta modificar ruta." />
     <MESSAGE value="Contruir el algoritmo para entrada y salida de la tienda." />
-    <option name="LAST_COMMIT_MESSAGE" value="Contruir el algoritmo para entrada y salida de la tienda." />
+    <MESSAGE value="Comprar productos parte 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comprar productos parte 1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sample/Controllers/ControllerUtiles.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sample/Controllers/ControllerUtiles.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -709,16 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerMonedas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="25" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/event/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -758,26 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerAlimentos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerJuguetes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerTiendita.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -788,10 +775,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerDulces.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerMonedas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="156" column="11" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="156" selection-end-column="11" />
+        <state relative-caret-position="204">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="25" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerUtiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerAlimentos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="119" column="25" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -800,18 +814,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerBebidas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="73">
+          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerUtiles.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerDulces.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="73">
+          <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerJuguetes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="118" column="25" selection-start-line="118" selection-start-column="25" selection-end-line="118" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -820,8 +844,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerServicios.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="94" column="69" selection-start-line="94" selection-start-column="69" selection-end-line="94" selection-end-column="69" />
+        <state relative-caret-position="134">
+          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
