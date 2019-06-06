@@ -39,6 +39,11 @@ public class ControllerUtiles implements Initializable {
                 data+="Producto: "+productos.get(i).getNombre()+"\n"+"Cantidad: "+productos.get(i).getCantidad()+"\nTotal: "+productos.get(i).getTotal()+"\n";
             alert.setContentText(data);
             alert.showAndWait();
+            int size=productos.size();
+            for (int i = 0; i < size; i++)
+                productos.get(i).setCantidad(0);
+            for (int i = size-1; i > 0; i--)
+                productos.remove(i);
         });
 
         btnPluma.setOnAction(event -> {
