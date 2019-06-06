@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -25,5 +26,30 @@
             <Image url="@../Imagenes/cerrar.png" />
          </image>
       </ImageView>
+      <JFXButton fx:id="btnManzana" layoutX="249.0" layoutY="146.0" prefHeight="51.0" prefWidth="78.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnMango" layoutX="355.0" layoutY="143.0" prefHeight="51.0" prefWidth="78.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnBanana" layoutX="245.0" layoutY="197.0" prefHeight="42.0" prefWidth="78.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnNaranja" layoutX="355.0" layoutY="194.0" prefHeight="42.0" prefWidth="78.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnFresa" layoutX="309.0" layoutY="238.0" prefHeight="51.0" prefWidth="78.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
     </children>
 </AnchorPane>

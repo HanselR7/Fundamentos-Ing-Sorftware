@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -25,5 +26,10 @@
             <Image url="@../Imagenes/cerrar.png" />
          </image>
       </ImageView>
+      <JFXButton fx:id="btnMaxStil" layoutX="278.0" layoutY="151.0" prefHeight="57.0" prefWidth="67.0" />
+      <JFXButton fx:id="btnBarbie" layoutX="384.0" layoutY="139.0" prefHeight="69.0" prefWidth="46.0" />
+      <JFXButton fx:id="btnCarros" layoutX="281.0" layoutY="219.0" prefHeight="36.0" prefWidth="67.0" />
+      <JFXButton fx:id="btnAvion" layoutX="363.0" layoutY="213.0" prefHeight="36.0" prefWidth="81.0" />
+      <JFXButton fx:id="btnCasa" layoutX="266.0" layoutY="255.0" prefHeight="44.0" prefWidth="81.0" />
     </children>
 </AnchorPane>

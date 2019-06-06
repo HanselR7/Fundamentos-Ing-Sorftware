@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -28,5 +29,40 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </ImageView>
+      <JFXButton fx:id="btnPluma" layoutX="264.0" layoutY="154.0" prefHeight="50.0" prefWidth="52.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnSacapuntas" layoutX="342.0" layoutY="166.0" prefHeight="36.0" prefWidth="44.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnLibretas" layoutX="412.0" layoutY="148.0" prefHeight="58.0" prefWidth="44.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnTijeras" layoutX="264.0" layoutY="245.0" prefHeight="44.0" prefWidth="52.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnBorrador" layoutX="316.0" layoutY="206.0" prefHeight="44.0" prefWidth="52.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnColores" layoutX="398.0" layoutY="206.0" prefHeight="36.0" prefWidth="58.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnResistol" layoutX="408.0" layoutY="247.0" prefHeight="36.0" prefWidth="29.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
     </children>
 </AnchorPane>
