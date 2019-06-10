@@ -31,6 +31,10 @@ public class ControllerBebidas implements Initializable {
         });
 
         btnComprar.setOnAction(event -> {
+
+            ControllerCompra controllerCompra = new ControllerCompra();
+            m.abrirEscena(event,"compra.fxml",controllerCompra,"Ticket de compra");
+            /*
             String data="";
             Alert alert=new Alert(Alert.AlertType.INFORMATION);
             for (int i = 0; i < productos.size(); i++)
@@ -42,7 +46,7 @@ public class ControllerBebidas implements Initializable {
                 productos.get(i).setCantidad(0);
             for (int i = size-1; i > 0; i--)
                 productos.remove(i);
-        });
+        */});
 
         btnHersheys.setOnAction(event -> {
             existe=false;
