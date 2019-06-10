@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Comprar productos parte 1">
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/ControllerAlimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/ControllerAlimentos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/ControllerBebidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/ControllerBebidas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/ControllerDulces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/ControllerDulces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/ControllerJuguetes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/ControllerJuguetes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/ControllerServicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/ControllerServicios.java" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Comprar productos parte 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerAlimentos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="119" column="25" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
+            <state relative-caret-position="328">
+              <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerJuguetes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="118" column="25" selection-start-line="118" selection-start-column="25" selection-end-line="118" selection-end-column="25" />
+            <state relative-caret-position="425">
+              <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,11 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerServicios.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+            <state relative-caret-position="74">
+              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="43" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,8 +151,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerDulces.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
+            <state relative-caret-position="391">
+              <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,8 +163,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerBebidas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+            <state relative-caret-position="374">
+              <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,11 +184,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerUtiles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="25" />
+            <state relative-caret-position="408">
+              <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -253,12 +249,12 @@
         <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerTiendita.java" />
         <option value="$PROJECT_DIR$/src/sample/Modelos/Productos.java" />
         <option value="$PROJECT_DIR$/src/sample/Modelos/Producto.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerUtiles.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerServicios.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerAlimentos.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerBebidas.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerDulces.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerJuguetes.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerServicios.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/ControllerUtiles.java" />
       </list>
     </option>
   </component>
@@ -488,7 +484,7 @@
       <workItem from="1558891332237" duration="7556000" />
       <workItem from="1558929972313" duration="153000" />
       <workItem from="1558998673629" duration="548000" />
-      <workItem from="1559843744280" duration="9580000" />
+      <workItem from="1559843744280" duration="10035000" />
     </task>
     <task id="LOCAL-00001" summary="Agregando Algoritmo de entrada y salida parte 1.">
       <created>1554617089281</created>
@@ -546,11 +542,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559858023164</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Comprar productos parte 2">
+      <created>1559858483410</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559858483410</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Comprar productos parte 2">
+      <created>1559858818694</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559858818696</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67448000" />
+    <option name="totallyTimeSpent" value="67903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -606,7 +616,8 @@
     <MESSAGE value="Arreglado, falta modificar ruta." />
     <MESSAGE value="Contruir el algoritmo para entrada y salida de la tienda." />
     <MESSAGE value="Comprar productos parte 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comprar productos parte 1" />
+    <MESSAGE value="Comprar productos parte 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comprar productos parte 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -619,7 +630,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sample/Controllers/ControllerUtiles.java</url>
-          <line>65</line>
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -792,20 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerUtiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerAlimentos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="119" column="25" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
+        <state relative-caret-position="328">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -814,8 +815,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerBebidas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+        <state relative-caret-position="374">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -824,8 +825,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerDulces.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
+        <state relative-caret-position="391">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -834,8 +835,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerJuguetes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="118" column="25" selection-start-line="118" selection-start-column="25" selection-end-line="118" selection-end-column="25" />
+        <state relative-caret-position="425">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -844,8 +845,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerServicios.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+        <state relative-caret-position="74">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="43" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ControllerUtiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
