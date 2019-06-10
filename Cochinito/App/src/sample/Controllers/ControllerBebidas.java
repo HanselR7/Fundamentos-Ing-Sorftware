@@ -32,10 +32,9 @@ public class ControllerBebidas implements Initializable {
 
         btnComprar.setOnAction(event -> {
 
-            ControllerCompra controllerCompra = new ControllerCompra();
+            ControllerCompra controllerCompra = new ControllerCompra(productos);
             m.abrirEscena(event,"compra.fxml",controllerCompra,"Ticket de compra");
-            /*
-            String data="";
+            /*String data="";
             Alert alert=new Alert(Alert.AlertType.INFORMATION);
             for (int i = 0; i < productos.size(); i++)
                 data+="Producto: "+productos.get(i).getNombre()+"\n"+"Cantidad: "+productos.get(i).getCantidad()+"\nTotal: "+productos.get(i).getTotal()+"\n";
@@ -45,8 +44,8 @@ public class ControllerBebidas implements Initializable {
             for (int i = 0; i < size; i++)
                 productos.get(i).setCantidad(0);
             for (int i = size-1; i > 0; i--)
-                productos.remove(i);
-        */});
+                productos.remove(i);*/
+        });
 
         btnHersheys.setOnAction(event -> {
             existe=false;

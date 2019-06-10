@@ -7,7 +7,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="421.0" prefWidth="835.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="421.0" prefWidth="835.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
     <children>
         <ImageView fx:id="lblRegresar" fitHeight="36.0" fitWidth="54.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
             <image>
@@ -32,11 +32,12 @@
               <Image url="@../Imagenes/borde.png" />
           </image>
       </ImageView>
-      <TableView  fx:id="tablaCompra" layoutX="381.0" layoutY="43.0" prefHeight="337.0" prefWidth="299.0">
+      <TableView fx:id="tablaCompra" layoutX="381.0" layoutY="43.0" prefHeight="337.0" prefWidth="299.0">
         <columns>
-          <TableColumn fx:id="Producto" prefWidth="75.0" text="Producto" />
-          <TableColumn fx:id="Cantidad" prefWidth="75.0" text="Cantidad" />
-            <TableColumn fx:id="Precio" prefWidth="75.0" text="Precio" />
+          <TableColumn fx:id="Producto" prefWidth="75.0" style="-fx-alignment: CENTER;" text="Producto" />
+          <TableColumn fx:id="Cantidad" prefWidth="75.0" style="-fx-alignment: CENTER;" text="Cantidad" />
+            <TableColumn fx:id="Precio" prefWidth="75.0" style="-fx-alignment: CENTER;" text="Precio" />
+            <TableColumn fx:id="Total" prefWidth="75.0" style="-fx-alignment: CENTER;" text="Total" />
         </columns>
       </TableView>
 
