@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="421.0" prefWidth="835.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ImageView fx:id="lblRegresar" fitHeight="36.0" fitWidth="54.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Imagenes/regresar.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fx:id="lblCerrar" fitHeight="44.0" fitWidth="36.0" layoutX="785.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Imagenes/cerrar.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="291.0" fitWidth="312.0" layoutX="27.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Imagenes/carrito.jpg" />
+            </image>
+        </ImageView>
+      <ImageView fitHeight="414.0" fitWidth="408.0" layoutX="339.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+              <Image url="@../Imagenes/borde.png" />
+          </image>
+      </ImageView>
+      <TableView  fx:id="tablaCompra" layoutX="381.0" layoutY="43.0" prefHeight="337.0" prefWidth="299.0">
+        <columns>
+          <TableColumn fx:id="Producto" prefWidth="75.0" text="Producto" />
+          <TableColumn fx:id="Cantidad" prefWidth="75.0" text="Cantidad" />
+            <TableColumn fx:id="Precio" prefWidth="75.0" text="Precio" />
+        </columns>
+      </TableView>
+
+    </children>
+</AnchorPane>
